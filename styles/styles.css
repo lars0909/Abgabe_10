@@ -1,6 +1,8 @@
 body{
     background-color: cadetblue;
     font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
 }
 ul{
     color:blueviolet;
@@ -30,9 +32,21 @@ input{
     font-size: 25px;
 }
 li{
-    height: 30px;
+    min-height: 30px;
     border: 1px solid black;
     border-bottom: 0px;
     padding-left: 25px;
     padding-right: 25px;
+}
+.style{
+    margin-top: 10px;
+    float: right;
+    background-color: red;
+    border: 0px;
+    height: 10px;
+    width: 10px;
+}
+.completed {
+  text-decoration: line-through;
+  color: #999;
 }
