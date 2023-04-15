@@ -50,7 +50,7 @@ function abhaken(li: HTMLLIElement){
     li.classList.add("notcompleted")
   }
 }
-function vernichten(li: HTMLLIElement):void{
+function vernnichten(li: HTMLLIElement):void{
   count--;
   zähler(); 
   li.remove();         //danke openai
